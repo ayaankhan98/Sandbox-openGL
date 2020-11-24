@@ -21,6 +21,6 @@ and Much More.
 
 ### Preview
 <br/>
-<img src="./preview/Menu.PNG" height=200 />
-<img src="./preview/testclearcolor.png" height=200 />
-<img src="./preview/testTexture2D.PNG" height=200 />
+<img src="./preview/Menu.PNG" height=500 />
+<img src="./preview/testclearcolor.png" height=500 />
+<img src="./preview/testTexture2D.PNG" height=500 />
