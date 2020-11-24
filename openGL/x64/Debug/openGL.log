@@ -1,0 +1,25 @@
+﻿  Application.cpp
+E:\source\Sandbox-openGL\openGL\src\Application.cpp(1,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  IndexBuffer.cpp
+E:\source\Sandbox-openGL\openGL\src\Renderer.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Renderer.cpp
+E:\source\Sandbox-openGL\openGL\src\Renderer.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Shader.cpp
+E:\source\Sandbox-openGL\openGL\src\Shader.h(6,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  TestClearColor.cpp
+E:\source\Sandbox-openGL\openGL\src\tests\TestClearColor.h(3,10): fatal error C1083: Cannot open include file: 'tests/Test.h': No such file or directory
+  Texture.cpp
+E:\source\Sandbox-openGL\openGL\src\Renderer.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  glm.cpp
+E:\source\Sandbox-openGL\openGL\src\vendor\glm\detail\glm.cpp(7,10): fatal error C1083: Cannot open include file: 'glm/gtx/dual_quaternion.hpp': No such file or directory
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw_gl3.cpp
+E:\source\Sandbox-openGL\openGL\src\vendor\imgui\imgui_impl_glfw_gl3.cpp(44,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  stb_image.cpp
+  VertexArray.cpp
+E:\source\Sandbox-openGL\openGL\src\Renderer.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  VertexBuffer.cpp
+E:\source\Sandbox-openGL\openGL\src\Renderer.h(3,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Generating Code...

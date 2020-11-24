@@ -3,9 +3,13 @@
 #include "Renderer.h"
 #include "imgui/imgui.h"
 
-test::TestClearColor::TestClearColor() : m_ClearColor{0.2f, 0.3f, 0.8f, 1.0f} {}
+test::TestClearColor::TestClearColor() : m_ClearColor{1.0f, 1.0f, 1.0f, 1.0f} {
+  std::cout << "Creating TestClearColor\n";
+}
 
-test::TestClearColor::~TestClearColor() {}
+test::TestClearColor::~TestClearColor() {
+  std::cout << "Destroying TestClearColor\n";
+}
 
 void test::TestClearColor::OnUpdate(float deltaTime) {}
 
