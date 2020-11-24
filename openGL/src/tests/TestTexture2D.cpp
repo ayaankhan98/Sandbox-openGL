@@ -7,7 +7,7 @@
 test::TestTexture2D::TestTexture2D()
     : m_TranslationA(200.0f, 100.0f, 0.0f),
       m_TranslationB(400.0f, 100.0f, 0.0f),
-      m_Proj(glm::ortho(0.0f, 1024.0f, 0.0f, 768.0f, -1.0f, 1.0f)),
+      m_Proj(glm::ortho(0.0f, 500.0f, 0.0f, 700.0f, -1.0f, 1.0f)),
       m_View(glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f))) {
   float positions[] = {0.0f,   0.0f,   0.0f, 0.0f, 100.0f, 0.0f,   1.0f, 0.0f,
                        100.0f, 100.0f, 1.0f, 1.0f, 0.0f,   100.0f, 0.0f, 1.0f};
@@ -29,7 +29,7 @@ test::TestTexture2D::TestTexture2D()
 
   m_Shader = std::make_unique<Shader>("res/shaders/Basic.shader");
   m_Shader->Bind();
-  m_Texture = std::make_unique<Texture>("res/textures/log.png");
+  m_Texture = std::make_unique<Texture>("res/textures/mario.png");
   m_Shader->SetUnifrom1i("u_Texture", 0);
 }
 

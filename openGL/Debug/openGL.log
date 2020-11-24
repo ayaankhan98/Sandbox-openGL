@@ -1,6 +1,2 @@
-﻿  Application.cpp
-  VertexBuffer.cpp
-  TestClearColor.cpp
-  TestTexture2D.cpp
-  Generating Code...
+﻿  TestTexture2D.cpp
   openGL.vcxproj -> E:\source\Sandbox-openGL\Debug\openGL.exe
