@@ -1,4 +1,7 @@
 # Sandbox-openGL
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f78f78065dde44bda9851c7fcfdbd2dd)](https://app.codacy.com/gh/ayaankhan98/Sandbox-openGL?utm_source=github.com&utm_medium=referral&utm_content=ayaankhan98/Sandbox-openGL&utm_campaign=Badge_Grade_Settings)
+
 OpenGL Test Sandbox, Purpose of creating this sandbox type application is to facilitate the easy and fast accessibility of OpenGL stuff
 
 The way this sandbox application works is that, it's has a Test Menu type window which consists of different type of OpenGL stuff such as Texture2D, Texture 3D, Frame Buffers, Shadows, Lightining etc. you can click on these menu item to view a sample of these things. And if you want to learn how these things are rendered on screen you can just directly open the source file for that specific test and can look what's going in the backend.
